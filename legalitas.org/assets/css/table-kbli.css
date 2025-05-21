@@ -1,0 +1,138 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .dataTables_filter {
+        float: none !important;
+    }
+
+    .klik2x {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.dataTables_wrapper .pagination li a {
+    padding: 6px 12px;
+    width: unset
+}
+
+.dataTables_wrapper select,
+input {
+    padding: 2px;
+    margin-top: unset !important;
+    margin-bottom: unset !important
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 240px !important;
+    border: 1px solid #00b4cc;
+    padding: 2px;
+    height: 30px;
+    border-radius: 5px;
+    outline: 0;
+    color: #2f2f2f;
+    ;
+}
+
+table {
+    font-size: 16px;
+}
+
+/* .desktoplogo {
+                                                                                    padding: 17px 0 !important;
+                                                                                } */
+
+mark {
+    padding: 0;
+    background-color: #f0e2ff !important;
+    height: fit-content;
+    margin: 0;
+}
+
+table.dataTable.table-striped tr.dtrg-level-0 td {
+    background-color: #e0e0e0 !important;
+}
+
+table.dataTable.table-striped tr.dtrg-level-1 td {
+    background-color: #f0f0f0 !important;
+}
+
+table.dataTable.table-striped tr.odd {
+    background-color: #f9f9f9 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: none !important;
+}
+
+.alert {
+    background-color: #e8eaff !important;
+    border: 1px solid #e8eaff !important;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 11;
+}
+
+.alert p {
+    font-size: 15px;
+}
+
+.alert ul {
+    padding-bottom: 10px;
+    margin: 0 0 0 20px;
+    list-style: disc;
+}
+
+.alert li {
+    font-size: 15px;
+}
+
+.alert-before::before {
+    content: 'i';
+    background-color: #00479b;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    margin-right: 10px;
+    color: white;
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.content-alert {
+    font-size: 15px !important;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; */
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.kodeitemkbli {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    width: 50px;
+    margin-right: 13px;
+    border-radius: 4px;
+    padding: 7px;
+    text-align: center;
+    color: black
+}
+
+.banner-overlay {
+    height: 50%;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    height: 32px;
+    max-width: 50px;
+    margin: 5px;
+    padding: 1px;
+}
+
+label {
+    display: inline-flex;
+    min-width: 180px;
+}
